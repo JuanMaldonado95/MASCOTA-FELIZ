@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MascotaFeliz.App.Frontend</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
+
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .form-signin {
+            max-width: 400px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .txtinicial {
+            margin: 0px auto;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        body {
+
+            min-height: 100vh;
+
+            background-color: #e2ddf0;
+        }
+
+        < !-- min-height: -webkit-fill-available;
+
+        -->html {
+            height: -webkit-fill-available;
+        }
+
+        main {
+            height: 100%;
+            height: -webkit-fill-available;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .dropdown-toggle {
+            outline: 0;
+        }
+
+        .btn-toggle {
+            padding: .25rem .5rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, .65);
+            background-color: transparent;
+        }
+
+        .btn-toggle:hover,
+        .btn-toggle:focus {
+            color: rgba(0, 0, 0, .85);
+            background-color: #d2f4ea;
+        }
+
+        .btn-toggle::before {
+            width: 1.25em;
+            line-height: 0;
+            content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+            transition: transform .35s ease;
+            transform-origin: .5em 50%;
+        }
+
+        .btn-toggle[aria-expanded="true"] {
+            color: rgba(0, 0, 0, .85);
+        }
+
+        .btn-toggle[aria-expanded="true"]::before {
+            transform: rotate(90deg);
+        }
+
+        .btn-toggle-nav a {
+            padding: .1875rem .5rem;
+            margin-top: .125rem;
+            margin-left: 1.25rem;
+        }
+
+        .btn-toggle-nav a:hover,
+        .btn-toggle-nav a:focus {
+            background-color: #d2f4ea;
+        }
+
+        .scrollarea {
+            overflow-y: auto;
+        }
+
+        .letras {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="sidebars.css" rel="stylesheet">
+
+</head>
+
+<body class="letras">
+
+    <!-- Barra Inicial -->
+
+    <!--
+
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">MascotaFeliz.App.Frontend</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Duenos/ListaDuenos">Lista de Dueños</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Mascotas/ListaMascotas">Lista de
+                                Mascotas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Veterinarios/ListaVeterinarios">Lista
+                                de
+                                veterinarios</a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+-->
+
+    <!-- Barra Superior -->
+
+    <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+        style="background-color: whitesmoke">
+
+        <strong>
+            <p class="bi me-2" width="20" height="20" role="img" aria-label="Bootstrap"
+                style="color: purple; min-height: max-content; width: 400px;height: 20px;  text-font: 20px">
+                <img
+                    src="https://lh6.googleusercontent.com/Ob-MWObjM8X_WkBRklNYWd5vAKI4MRzJpYadieTih9cuqYbI7shkklpuu2QX0mDMyYA=w2400">
+                NUESTRAS MASCOTAS
+            </p>
+        </strong>
+        </a>
+        <strong>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+
+                <li><a href="" class="nav-link px-2 link-secondary">Inicio</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Planes</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Nuestros Profesionales</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Quienes somos</a></li>
+            </ul>
+        </strong>
+        <div class="col-md-3 text-end">
+            <li>
+                <button type="button" class="btn btn-outline-primary me-2"
+                    style="color:rgb(46, 0, 46)">Ingresar</button>
+                <a href="../Duenos/EditarDuenos"><button type="button" class="btn btn-primary"
+                        style="color:rgb(46, 0, 46)"> Registrarse </button></a>
+            </li>
+        </div>
+    </header>
+
+    <!-- Barra Lateral -->
+
+    <div class="row">
+        <div class="col-2  align-self-start">
+            <main class="d-flex flex-nowrap">
+                <div class="d-flex flex-column flex-shrink-0 p-1 bg-light"
+                    style="; width:280px ; height:100%; border-radius: 5%; ">
+                    <a href="#"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                        <svg class="bi pe-none me-2" width="32" height="50" background-color="#e2ddf0">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                        <span class="fs-7" style="font-size: 40px;">USUARIO</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-auto">
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link link-dark" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="bi pe-none me-2" width="25" height="45">
+                                    <use xlink:href="#Mis Datos" />
+                                </svg>
+                                MIS DATOS
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link link-dark" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="bi pe-none me-2" width="25" height="45">
+                                    <use xlink:href="#Duenos" />
+                                </svg>
+                                DUEÑOS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/Duenos/EditarDuenos">Nuevo Registro</a>
+                                <a class="dropdown-item" href="/Duenos/ListaDuenos">Lista de Dueños</a>
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link link-dark" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="bi pe-none me-2" width="25" height="45">
+                                    <use xlink:href="#Mascotas" />
+                                </svg>
+                                MASCOTAS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/Mascotas/EditarMascotas">Nuevo Registro</a>
+                                <a class="dropdown-item" href="/Mascotas/ListaMascotas">Lista de Mascotas</a>
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link link-dark" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="bi pe-none me-2" width="25" height="45">
+                                    <use xlink:href="#Visitas" />
+                                </svg>
+                                VISITAS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/Visitas/EditarVisitas">Nuevo Registro</a>
+                                <a class="dropdown-item" href="/Visitas/ListaVisitas">Lista de Visitas</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link link-dark" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="bi pe-none me-2" width="25" height="45">
+                                    <use xlink:href="#Veterinarios" />
+                                </svg>
+                                VETERINARIOS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/Veterinarios/EditarVeterinarios">Nuevo Registro</a>
+                                <a class="dropdown-item" href="/Veterinarios/ListaVeterinarios">Lista de
+                                    Veterinarios</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <hr>
+
+                    <div class="dropdown">
+                        <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://lh6.googleusercontent.com/r6U47_5lSGq2mEVnjdsq1UEhUPECxfpu4SAozwmYHVAu0fpbpbYhiI6zxGhUXjMKfjA=w2400"
+                                alt="" width="36" height="36" class="rounded-circle me-2">
+                            <strong>usuario</strong>
+                        </a>
+                        <ul class="dropdown-menu text-small shadow">
+                            <li><a class="dropdown-item" href="#">Editar datos de usuario</a></li>
+                            <li><a class="dropdown-item" href="#">Editar datos mascota</a></li>
+                            <li><a class="dropdown-item" href="#">Configuraciones</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Salir</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div class="col align-self-center>
+                <div class=" container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+
+        </div>
+    </div>
+
+    <!-- <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2022 - MascotaFeliz.App.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
+
+-->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+
+
+</body>
+
+<div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M-13.82,95.05 C149.99,150.00 312.36,46.70 506.49,98.02 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #0B0D17;"></path>
+    </svg></div>
+</div>
+
+</html>

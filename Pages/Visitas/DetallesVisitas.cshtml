@@ -1,0 +1,34 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.DetallesVisitasModel
+@{
+}
+
+<h1>Esto es para detalles de visitas</h1>
+
+
+
+<Div>
+    Id:@Model.visita.Id
+</Div>
+<Div>
+    Fecha de la visita:@Model.visita.FechaVisita
+</Div>
+<Div>
+    Temperatura:@Model.visita.Temperatura
+</Div>
+
+<Div>
+    Peso:@Model.visita.Peso
+</Div>
+<Div>
+   Frecuencia Respiratoria:@Model.visita.FrecuenciaRespiratoria
+</Div>
+<Div>
+    Frecuencia Cardiaca:@Model.visita.FrecuenciaCardiaca
+</Div>
+<Div>
+    Estado de Animo:@Model.visita.Estadoanimo
+</Div>
+
+
+<a asp-page="./ListaVisitas" class="btn-default">lista de Visitas</a>
