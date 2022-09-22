@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+.body{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    background: #F5F5F5;
+}
+
+.navbar{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    top: 0px;
+    left: 700px;
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    text-decoration: none;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.Iniciosesion{
+    margin-top: 100 px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 9px;
+    top: 233px;
+    background: #e3acd1 ;
+    }
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 100 px;
+    background: FFFFFF;
+    width: 100%;
+    position: fixed;
+    z-index: 100%;
+}

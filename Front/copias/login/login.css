@@ -1,0 +1,458 @@
+/*
+	@name iniciar_sesi_n
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__iniciar_sesi_n {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(209.4,193.37,255,0.5);
+}
+
+#header___1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 72px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 72px;
+	-ms-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-o-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-webkit-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-moz-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	background:rgba(255,255,255,1);
+}
+
+#right_nav {
+	top: 16px;
+	left: 1046px;
+	width: 229px;
+	height: 40px;
+}
+#button {
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 40px;
+}
+
+#login {
+	top: 10px;
+	left: 18px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+#button_ek1 {
+	top: 0px;
+	left: 132px;
+	width: 97px;
+	height: 40px;
+}
+
+#sign_up {
+	top: 10px;
+	left: 18px;
+	width: 69px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#FFFFFF;
+}
+
+#right_nav_ek1 {
+	top: 16px;
+	left: 1046px;
+	width: 229px;
+	height: 40px;
+}
+#button_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 40px;
+}
+
+#login_ek1 {
+	top: 10px;
+	left: 18px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+#button_ek3 {
+	top: 0px;
+	left: 132px;
+	width: 97px;
+	height: 40px;
+}
+
+#sign_up_ek1 {
+	top: 10px;
+	left: 18px;
+	width: 69px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#FFFFFF;
+}
+
+#button_ek4 {
+	top: 16px;
+	left: 1281px;
+	width: 146px;
+	height: 40px;
+}
+
+#login_ek2 {
+	top: 10px;
+	left: 18px;
+	width: 118px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+
+#nuestras_mascotas_vet {
+	top: 30px;
+	left: 138px;
+	width: 252.5px;
+	height: 26.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color:#410D31;
+}
+
+#nav_items {
+	top: 31px;
+	left: 565px;
+	width: 455px;
+	height: 20px;
+}
+#header_menu___default {
+	top: 0px;
+	left: 0px;
+	width: 36px;
+	height: 20px;
+}
+
+#label {
+	top: 0px;
+	left: 0px;
+	width: 55px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default {
+	top: 0px;
+	left: 68px;
+	width: 46px;
+	height: 20px;
+}
+
+#label_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 65px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default_ek1 {
+	top: 0px;
+	left: 146px;
+	width: 157px;
+	height: 20px;
+}
+
+#label_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 176px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default_ek2 {
+	top: 0px;
+	left: 335px;
+	width: 120px;
+	height: 20px;
+}
+
+#label_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 139px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+
+#image_14 {
+	top: 12px;
+	left: 59px;
+	width: 53px;
+	height: 49px;
+}
+
+#group_49 {
+	top: 233px;
+	left: 9px;
+	width: 722px;
+	height: 454px;
+}
+
+#rectangle_28 {
+	top: 0px;
+	left: 0px;
+	width: 722px;
+	height: 454px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_29 {
+	top: 110px;
+	left: 70px;
+	width: 198.91px;
+	height: 249.88px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(196,196,196,1);
+}
+
+
+#rectangle_31 {
+	top: 232px;
+	left: 399px;
+	width: 284.43px;
+	height: 58.31px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #420e31;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_33 {
+	top: 144px;
+	left: 399px;
+	width: 284.43px;
+	height: 58.31px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #420e31;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_32 {
+	top: 320px;
+	left: 399px;
+	width: 282.43px;
+	height: 56.31px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(66,14,49,1);
+}
+
+
+#iniciar_sesi_n {
+	top: 83px;
+	left: 474px;
+	width: 157.97px;
+	height: 40.98px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	color:#420E31;
+}
+
+
+#ingresar {
+	top: 336px;
+	left: 499px;
+	width: 107.42px;
+	height: 40.98px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#usuario {
+	top: 164px;
+	left: 446px;
+	width: 155.67px;
+	height: 31.62px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	color:#B6B6B6;
+}
+
+
+#contrase_a {
+	top: 250px;
+	left: 446px;
+	width: 104.02px;
+	height: 31.62px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	color:#B6B6B6;
+}
+
+
+#male_user_shadow_1 {
+	top: 161px;
+	left: 419px;
+	width: 21.98px;
+	height: 23.46px;
+}
+
+
+#contrasena_1 {
+	top: 248px;
+	left: 419px;
+	width: 21.98px;
+	height: 23.46px;
+}
+
+
+#ellipse {
+	top: 98px;
+	left: 789px;
+	width: 1053px;
+	height: 1024px;
+}
+
+
+#whatsapp_image_2022_09_03_at_6_58_1 {
+	top: 343px;
+	left: 79px;
+	width: 199px;
+	height: 250px;
+}
+
+
+
+/* Add your custom CSS here */

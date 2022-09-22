@@ -1,0 +1,1050 @@
+/*
+	@name administracion_mascota
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__administracion_mascota {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(209,193,255,1);
+}
+
+#header___1 {
+	top: 0px;
+	left: -5px;
+	width: 1440px;
+	height: 72px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 72px;
+	-ms-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-o-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-webkit-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-moz-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	background:rgba(255,255,255,1);
+}
+
+#right_nav {
+	top: 16px;
+	left: 1046px;
+	width: 229px;
+	height: 40px;
+}
+#button {
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 40px;
+}
+
+#login {
+	top: 10px;
+	left: 18px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+#button_ek1 {
+	top: 0px;
+	left: 132px;
+	width: 97px;
+	height: 40px;
+}
+
+#sign_up {
+	top: 10px;
+	left: 18px;
+	width: 69px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#FFFFFF;
+}
+
+#right_nav_ek1 {
+	top: 16px;
+	left: 1046px;
+	width: 229px;
+	height: 40px;
+}
+#button_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 40px;
+}
+
+#login_ek1 {
+	top: 10px;
+	left: 18px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+#button_ek3 {
+	top: 0px;
+	left: 132px;
+	width: 97px;
+	height: 40px;
+}
+
+#sign_up_ek1 {
+	top: 10px;
+	left: 18px;
+	width: 69px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#FFFFFF;
+}
+
+#button_ek4 {
+	top: 16px;
+	left: 1281px;
+	width: 146px;
+	height: 40px;
+}
+
+#login_ek2 {
+	top: 10px;
+	left: 18px;
+	width: 118px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+
+#nuestras_mascotas_vet {
+	top: 30px;
+	left: 138px;
+	width: 252.5px;
+	height: 26.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color:#420E31;
+}
+
+#nav_items {
+	top: 31px;
+	left: 565px;
+	width: 455px;
+	height: 20px;
+}
+#header_menu___default {
+	top: 0px;
+	left: 0px;
+	width: 36px;
+	height: 20px;
+}
+
+#label {
+	top: 0px;
+	left: 0px;
+	width: 55px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default {
+	top: 0px;
+	left: 68px;
+	width: 46px;
+	height: 20px;
+}
+
+#label_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 65px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default_ek1 {
+	top: 0px;
+	left: 146px;
+	width: 157px;
+	height: 20px;
+}
+
+#label_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 176px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default_ek2 {
+	top: 0px;
+	left: 335px;
+	width: 120px;
+	height: 20px;
+}
+
+#label_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 139px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+
+#image_14 {
+	top: 12px;
+	left: 59px;
+	width: 53px;
+	height: 49px;
+}
+
+#group_15 {
+	top: 89px;
+	left: 6px;
+	width: 359px;
+	height: 830px;
+}
+#group_13 {
+	top: 0px;
+	left: 0px;
+	width: 359px;
+	height: 830px;
+}
+
+#rectangle_22 {
+	top: 0px;
+	left: 0px;
+	width: 359px;
+	height: 830px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+#group_12 {
+	top: 379px;
+	left: 19px;
+	width: 300.49px;
+	height: 353px;
+}
+
+#reserva_1 {
+	top: 128px;
+	left: 37px;
+	width: 25.04px;
+	height: 29.08px;
+	background:rgba(255,255,255,0);
+}
+
+
+#servicio_en_la_habitacion_1 {
+	top: 83px;
+	left: 36px;
+	width: 25.04px;
+	height: 29.08px;
+}
+
+
+#mascota_amigable_1 {
+	top: 34px;
+	left: 32px;
+	width: 35.06px;
+	height: 40.72px;
+}
+
+
+#mis_datos {
+	top: 5px;
+	left: 94px;
+	width: 166.23px;
+	height: 40.79px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#mis_mascotas {
+	top: 47px;
+	left: 94px;
+	width: 162.23px;
+	height: 41.01px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#BBBBBB;
+}
+
+
+#servicios {
+	top: 91px;
+	left: 93px;
+	width: 109.14px;
+	height: 40.76px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#BBBBBB;
+}
+
+
+#line_3 {
+	top: 353px;
+	left: 0px;
+	width: 300.49px;
+	height: 1px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:#B6B6B6;
+}
+
+
+#male_user_shadow_2 {
+	top: 0px;
+	left: 42px;
+	width: 25.04px;
+	height: 29.08px;
+}
+
+
+#ingresar {
+	top: 272px;
+	left: 0px;
+	width: 92.82px;
+	height: 40.98px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#headings___h2 {
+	top: 73px;
+	left: 162px;
+	width: 227.68px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	margin-top: -8px;
+	height: 141px;
+	color:#420E31;
+}
+
+#group_16 {
+	top: 89px;
+	left: 6px;
+	width: 359px;
+	height: 830px;
+}
+#group_13_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 359px;
+	height: 830px;
+}
+
+#rectangle_22_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 359px;
+	height: 830px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#grafico_1 {
+	top: 504px;
+	left: 56px;
+	width: 25px;
+	height: 30.15px;
+}
+
+#group_12_ek1 {
+	top: 379px;
+	left: 19px;
+	width: 300.49px;
+	height: 353px;
+}
+
+#reserva_1_ek1 {
+	top: 128px;
+	left: 37px;
+	width: 25.04px;
+	height: 29.08px;
+	background:rgba(255,255,255,0);
+}
+
+
+#servicio_en_la_habitacion_1_ek1 {
+	top: 83px;
+	left: 36px;
+	width: 25.04px;
+	height: 29.08px;
+}
+
+
+#mascota_amigable_1_ek1 {
+	top: 34px;
+	left: 32px;
+	width: 35.06px;
+	height: 40.72px;
+}
+
+
+#mis_datos_ek1 {
+	top: 5px;
+	left: 94px;
+	width: 166.23px;
+	height: 40.79px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#BBBBBB;
+}
+
+
+#historia_clinia {
+	top: 134px;
+	left: 93px;
+	width: 166.23px;
+	height: 40.79px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#BBBBBB;
+}
+
+
+#mis_mascotas_ek1 {
+	top: 47px;
+	left: 94px;
+	width: 162.23px;
+	height: 41.01px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#BBBBBB;
+}
+
+
+#servicios_ek1 {
+	top: 91px;
+	left: 93px;
+	width: 109.14px;
+	height: 40.76px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#BBBBBB;
+}
+
+
+#line_3_ek1 {
+	top: 353px;
+	left: 0px;
+	width: 300.49px;
+	height: 1px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:#B6B6B6;
+}
+
+
+#male_user_shadow_2_ek1 {
+	top: 0px;
+	left: 42px;
+	width: 25.04px;
+	height: 29.08px;
+}
+
+
+#ingresar_ek1 {
+	top: 272px;
+	left: 0px;
+	width: 92.82px;
+	height: 40.98px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#headings___h2_ek1 {
+	top: 73px;
+	left: 162px;
+	width: 227.68px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	margin-top: -8px;
+	height: 141px;
+	color:#420E31;
+}
+
+
+#headings___h2_ek2 {
+	top: 136px;
+	left: 1213px;
+	width: 227.68px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	margin-top: -8px;
+	height: 141px;
+	color:#420E31;
+}
+
+
+#rectangle_596 {
+	top: 148px;
+	left: 42px;
+	width: 100px;
+	height: 100px;
+	background:rgba(217,217,217,1);
+}
+
+
+#image_21 {
+	top: -319.5px;
+	left: 325px;
+	width: 864px;
+	height: 535.5px;
+}
+
+
+#rectangle_21 {
+	top: 253px;
+	left: 397px;
+	width: 1024px;
+	height: 569px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#historia_clinica {
+	top: 253px;
+	left: 424px;
+	width: 245.5px;
+	height: 46.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+#group_11 {
+	top: 295px;
+	left: 398px;
+	width: 1024px;
+	height: 63px;
+}
+
+#rectangle_26 {
+	top: 0px;
+	left: 0px;
+	width: 1024px;
+	height: 63px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(202,218,229,1);
+}
+
+
+#temperatura {
+	top: 26px;
+	left: 98px;
+	width: 112.5px;
+	height: 24.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 13px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#peso {
+	top: 26px;
+	left: 215px;
+	width: 51.5px;
+	height: 24.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 13px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#f_respiratoria {
+	top: 26px;
+	left: 273px;
+	width: 130.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#f_cardiaca {
+	top: 26px;
+	left: 407px;
+	width: 101.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#fecha_visita {
+	top: 26px;
+	left: 662px;
+	width: 111px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#diagnostico {
+	top: 26px;
+	left: 785px;
+	width: 112px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#estado_de_animo {
+	top: 26px;
+	left: 510px;
+	width: 142px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#opciones {
+	top: 26px;
+	left: 908px;
+	width: 88px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: left;
+	color:#7B7878;
+}
+
+
+#id_historia {
+	top: 15px;
+	left: 17px;
+	width: 78.5px;
+	height: 39.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 13px;
+	text-align: left;
+	color:#7B7878;
+}
+
+#group_6 {
+	top: 395px;
+	left: 397px;
+	width: 1025px;
+	height: 53.01px;
+}
+
+#_1 {
+	top: 0px;
+	left: 48px;
+	width: 29.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: left;
+	color:#474646;
+}
+
+
+#line_2 {
+	top: 53px;
+	left: 0px;
+	width: 1025px;
+	height: 1px;
+	background:#B6B6B6;
+}
+
+#group_7 {
+	top: 388px;
+	left: 397px;
+	width: 1025px;
+	height: 150.01px;
+}
+
+#edit__1__1 {
+	top: 93px;
+	left: 921px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#edit__1__2 {
+	top: 0px;
+	left: 917px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#view_details_1 {
+	top: 93px;
+	left: 956px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#view_details_2 {
+	top: 0px;
+	left: 952px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#_2 {
+	top: 97px;
+	left: 48px;
+	width: 29.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: left;
+	color:#474646;
+}
+
+
+#line_2_ek1 {
+	top: 150px;
+	left: 0px;
+	width: 1025px;
+	height: 1px;
+	background:#B6B6B6;
+}
+
+#group_8 {
+	top: 571px;
+	left: 397px;
+	width: 1025px;
+	height: 57.01px;
+}
+
+#edit__1__1_ek1 {
+	top: 0px;
+	left: 921px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#view_details_1_ek1 {
+	top: 0px;
+	left: 956px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#_3 {
+	top: 4px;
+	left: 48px;
+	width: 29.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: left;
+	color:#474646;
+}
+
+
+#line_2_ek2 {
+	top: 57px;
+	left: 0px;
+	width: 1025px;
+	height: 1px;
+	background:#B6B6B6;
+}
+
+#group_9 {
+	top: 661px;
+	left: 397px;
+	width: 1025px;
+	height: 57.01px;
+}
+
+#edit__1__1_ek2 {
+	top: 0px;
+	left: 921px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#view_details_1_ek2 {
+	top: 0px;
+	left: 956px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#_4 {
+	top: 4px;
+	left: 48px;
+	width: 29.5px;
+	height: 28.5px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 15px;
+	text-align: left;
+	color:#474646;
+}
+
+
+#line_2_ek3 {
+	top: 57px;
+	left: 0px;
+	width: 1025px;
+	height: 1px;
+	background:#B6B6B6;
+}
+
+#group_17 {
+	top: 743px;
+	left: 1207px;
+	width: 170px;
+	height: 30px;
+}
+
+#number_1 {
+	top: 0px;
+	left: 70px;
+	width: 30px;
+	height: 30px;
+}
+
+
+#chevron_1 {
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 30px;
+}
+
+
+#chevron_2 {
+	top: 0px;
+	left: 140px;
+	width: 30px;
+	height: 30px;
+}
+
+
+#number_one_inside_a_circle_1 {
+	top: 0px;
+	left: 35px;
+	width: 30px;
+	height: 30px;
+}
+
+
+#number__1__1 {
+	top: 0px;
+	left: 105px;
+	width: 30px;
+	height: 30px;
+}
+
+
+#image_15 {
+	top: 116px;
+	left: 1089px;
+	width: 100px;
+	height: 100px;
+}
+
+
+#image_30 {
+	top: 148px;
+	left: 42px;
+	width: 100px;
+	height: 100px;
+}
+
+
+#image_21_ek1 {
+	top: 148px;
+	left: 42px;
+	width: 110px;
+	height: 110px;
+	border: 5px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,0);
+}
+
+
+
+/* Add your custom CSS here */

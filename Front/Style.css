@@ -1,0 +1,22 @@
+.body{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    background: #F5F5F5;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 100 px;
+    background: FFFFFF;
+    width: 100%;
+    z-index: 100%;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+}
+.nombreempresa{
+    display: flex;
+    justify-content: space-between;
+}

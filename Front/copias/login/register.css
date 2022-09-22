@@ -1,0 +1,776 @@
+/*
+	@name registro
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__registro {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(209,193,255,0.5);
+}
+
+#header___1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 72px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 72px;
+	-ms-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-o-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-webkit-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	-moz-box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	box-shadow:0px 1px 0px 1px rgba(229,233,242,1);
+	background:rgba(255,255,255,1);
+}
+
+#right_nav {
+	top: 16px;
+	left: 1046px;
+	width: 229px;
+	height: 40px;
+}
+#button {
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 40px;
+}
+
+#login {
+	top: 10px;
+	left: 18px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+#button_ek1 {
+	top: 0px;
+	left: 132px;
+	width: 97px;
+	height: 40px;
+}
+
+#sign_up {
+	top: 10px;
+	left: 18px;
+	width: 69px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#FFFFFF;
+}
+
+#right_nav_ek1 {
+	top: 16px;
+	left: 1046px;
+	width: 229px;
+	height: 40px;
+}
+#button_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 118px;
+	height: 40px;
+}
+
+#login_ek1 {
+	top: 10px;
+	left: 18px;
+	width: 90px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+#button_ek3 {
+	top: 0px;
+	left: 132px;
+	width: 97px;
+	height: 40px;
+}
+
+#sign_up_ek1 {
+	top: 10px;
+	left: 18px;
+	width: 69px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#FFFFFF;
+}
+
+#button_ek4 {
+	top: 16px;
+	left: 1281px;
+	width: 146px;
+	height: 40px;
+}
+
+#login_ek2 {
+	top: 10px;
+	left: 18px;
+	width: 118px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	color:#8C30F5;
+}
+
+
+#nuestras_mascotas_vet {
+	top: 30px;
+	left: 138px;
+	width: 252.5px;
+	height: 26.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color:#420E31;
+}
+
+#nav_items {
+	top: 31px;
+	left: 565px;
+	width: 455px;
+	height: 20px;
+}
+#header_menu___default {
+	top: 0px;
+	left: 0px;
+	width: 36px;
+	height: 20px;
+}
+
+#label {
+	top: 0px;
+	left: 0px;
+	width: 55px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default {
+	top: 0px;
+	left: 68px;
+	width: 46px;
+	height: 20px;
+}
+
+#label_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 65px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default_ek1 {
+	top: 0px;
+	left: 146px;
+	width: 157px;
+	height: 20px;
+}
+
+#label_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 176px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+#menu_item___default_ek2 {
+	top: 0px;
+	left: 335px;
+	width: 120px;
+	height: 20px;
+}
+
+#label_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 139px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 14px;
+	text-align: left;
+	line-height: 20px;
+	color:#18191F;
+}
+
+
+#image_14 {
+	top: 12px;
+	left: 59px;
+	width: 53px;
+	height: 49px;
+}
+
+
+
+/* Add your custom CSS here */
+
+/*
+	@name registro
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__registro {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(209,193,255,0.5);
+}
+
+
+#ellipse_1 {
+	opacity:0.5;
+	top: 604px;
+	left: 930px;
+	width: 427px;
+	height: 390px;
+	-ms-border-radius: 213.5px / 195px;
+	-o-border-radius: 213.5px / 195px;
+	-moz-border-radius: 213.5px / 195px;
+	-webkit-border-radius: 213.5px / 195px;
+	border-radius: 213.5px / 195px;
+	background:rgba(255,225.76,72.25,1);
+}
+
+#group_50 {
+	top: 241px;
+	left: 57px;
+	width: 576px;
+	height: 510px;
+}
+
+#rectangle_28 {
+	top: 0px;
+	left: 0px;
+	width: 576px;
+	height: 510px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#direcci_n {
+	top: 246px;
+	left: 51px;
+	width: 150.02px;
+	height: 47.88px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#040404;
+}
+
+
+#telefono {
+	top: 324px;
+	left: 51px;
+	width: 150.02px;
+	height: 47.88px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#040404;
+}
+
+
+#email {
+	top: 403px;
+	left: 51px;
+	width: 150.02px;
+	height: 47.88px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#040404;
+}
+
+
+#rectangle_38 {
+	top: 399px;
+	left: 243px;
+	width: 263.54px;
+	height: 51.66px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_37 {
+	top: 316px;
+	left: 243px;
+	width: 263.54px;
+	height: 51.66px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_36 {
+	top: 242px;
+	left: 243px;
+	width: 261.54px;
+	height: 49.66px;
+}
+
+
+#rectangle_35 {
+	top: 169px;
+	left: 243px;
+	width: 263.54px;
+	height: 51.66px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_34 {
+	top: 86px;
+	left: 243px;
+	width: 263.54px;
+	height: 51.66px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#nombres {
+	top: 95px;
+	left: 51px;
+	width: 150.02px;
+	height: 47.88px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#040404;
+}
+
+
+#apellidos {
+	top: 170px;
+	left: 51px;
+	width: 150.02px;
+	height: 47.88px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#040404;
+}
+
+#group_51 {
+	top: 241px;
+	left: 777px;
+	width: 559px;
+	height: 411px;
+}
+
+#rectangle_28_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 559px;
+	height: 411px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#raza {
+	top: 269px;
+	left: 84px;
+	width: 146.48px;
+	height: 33.34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#fecha_registro {
+	top: 342px;
+	left: 84px;
+	width: 146.48px;
+	height: 33.34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_36_ek1 {
+	top: 255px;
+	left: 251px;
+	width: 255.82px;
+	height: 54.36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #420e31;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_37_ek1 {
+	top: 334px;
+	left: 251px;
+	width: 255.82px;
+	height: 54.36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #420e31;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_34_ek1 {
+	top: 96px;
+	left: 251px;
+	width: 255.82px;
+	height: 54.36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #420e31;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_35_ek1 {
+	top: 175px;
+	left: 251px;
+	width: 255.82px;
+	height: 54.36px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #420e31;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#nombre {
+	top: 113px;
+	left: 81px;
+	width: 146.48px;
+	height: 33.34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#especie {
+	top: 192px;
+	left: 84px;
+	width: 146.48px;
+	height: 33.34px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+#section_heading {
+	top: 241px;
+	left: 277px;
+	width: 174px;
+	height: 63px;
+}
+#section_heading_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 174px;
+	height: 64px;
+}
+
+#section_title {
+	top: 0px;
+	left: 0px;
+	width: 498px;
+	height: 98px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	color:#18191F;
+}
+
+#section_heading_ek2 {
+	top: 242px;
+	left: 960px;
+	width: 220px;
+	height: 63px;
+}
+#section_heading_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 220px;
+	height: 64px;
+}
+
+#section_title_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 498px;
+	height: 98px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	color:#18191F;
+}
+
+#headline_3 {
+	top: 105px;
+	left: 520px;
+	width: 755px;
+	height: 97px;
+}
+
+#headings___h3 {
+	top: 11px;
+	left: 0px;
+	width: 1364px;
+	height: 86px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 25px;
+	margin-top: -3px;
+	height: 102px;
+	color:#000000;
+}
+
+
+#rectangle_35_ek2 {
+	top: 773px;
+	left: 658px;
+	width: 269px;
+	height: 70px;
+}
+
+
+#registrarse {
+	top: 786px;
+	left: 715px;
+	width: 195px;
+	height: 47px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#headings___h2 {
+	top: 122px;
+	left: 112px;
+	width: 447px;
+	height: 94px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 64px;
+	margin-top: -8px;
+	height: 134px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000000;
+	-ms-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	color:#420E31;
+}
+
+
+
+/* Add your custom CSS here */
+
